@@ -1,0 +1,1942 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/font.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/main.css">
+   <title>HUNGRY PEOPLE</title>
+</head>
+
+<body>
+
+   <header class="header">
+      <div class="container">
+         <div class="header__menu">
+            <nav class="header__body">
+               <ul class="menu__list">
+                  <div class="menu__icon">
+                     <span></span>
+                  </div>
+                  <li><a class="menu__link" href="#">Home</a></li>
+                  <li><a class="menu__link" href="#">About</a></li>
+                  <li><a class="menu__link" href="#">Team</a></li>
+                  <li class="menu__link--padding-right"><a class="menu__link" href="#">Booking</a></li>
+
+                  <a class="menu__logo" href="index.html"><img class="header__logo" src="img/Intro/header/logo.png"
+                        alt=""></a>
+
+                  <li class="menu__link--padding-left"><a class="menu__link" href="#">Menu</a></li>
+                  <li><a class="menu__link" href="#">Galerie</a></li>
+                  <li><a class="menu__link" href="#">Events</a></li>
+                  <li><a class="menu__link" href="#">Contact</a></li>
+               </ul>
+            </nav>
+
+            <div class="menu__mobile">
+               <ul class="menu__list-mobile">
+                  <li><a class="menu__link-mobile" href="#">Home</a></li>
+                  <li><a class="menu__link-mobile" href="#">About</a></li>
+                  <li><a class="menu__link-mobile" href="#">Team</a></li>
+                  <li><a class="menu__link-mobile" href="#">Booking</a></li>
+                  <li><a class="menu__link-mobile" href="#">Menu</a></li>
+                  <li><a class="menu__link-mobile" href="#">Galerie</a></li>
+                  <li><a class="menu__link-mobile" href="#">Events</a></li>
+                  <li><a class="menu__link-mobile" href="#">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <section class="intro">
+      <div class="intro__inner">
+         <div class="container">
+            <div class="intro__wrapper">
+               <div class="intro__content">
+                  <div class="intro__time">
+                     <p>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+                  </div>
+
+                  <div class="intro__body">
+                     <p class="intro__subtitle">
+                        RESTAURANT
+                     </p>
+                     <h1 class="intro__title">Hungry people</h1>
+
+                     <div class="body__buttons">
+                        <a href="#" class="btn">BOOK TABLE</a>
+                        <a href="#" class="btn">EXPLORE</a>
+                     </div>
+
+                     <a href="#" class="intro__arrow"></a>
+                  </div>
+
+                  <div class="intro__social">
+                     <a href="#" class="social__icon"></a>
+                     <a href="#" class="social__icon"></a>
+                     <a href="#" class="social__icon"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="about">
+      <div class="container">
+         <div class="about__inner">
+            <div class="about__title-box">
+               <h2 class="title">about us</h2>
+               <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                  molestie est a, tempor magna.</p>
+               <p class="about__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+                  ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+                  lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+               </p>
+            </div>
+
+            <div class="about__image">
+               <img src="img/About/01.png" alt="">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="team">
+      <div class="container">
+         <div class="team__info">
+            <h3 class="info__title">OUR TEAM</h3>
+         </div>
+
+         <div class="team__inner">
+            <div class="team__image">
+               <img src="img/Team/01.png" alt="">
+            </div>
+
+            <div class="team__title-box">
+               <h2 class="title">MASTER CHEF</h2>
+               <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                  molestie est a, tempor magna.</p>
+               <p class="team__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+                  ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+                  lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="booking">
+      <div class="container">
+         <div class="booking__inner">
+            <div class="booking__title-box">
+               <h2 class="title">book a table</h2>
+               <form class="booking__form" action="/" method="POST">
+                  <div class="form__row">
+                     <input class="booking__input" type="text" name="name" placeholder="Name">
+                     <input class="booking__input" type="email" name="email" placeholder="Email">
+                  </div>
+                  <div class="form__row">
+                     <input class="booking__input" type="tel" name="phone" placeholder="Phone">
+                     <select class="booking__select" name="people">
+                        <option>People</option>
+                        <option>People1</option>
+                        <option>People2</option>
+                     </select>
+                  </div>
+                  <div class="form__row">
+                     <input class="booking__input booking__input--date" type="date" name="date">
+                     <select class="booking__select" name="time">
+                        <option>Time</option>
+                        <option>Time1</option>
+                        <option>Time2</option>
+                     </select>
+                  </div>
+                  <a class="btn" href="#">Book now</a>
+               </form>
+            </div>
+
+            <div class="booking__image">
+               <img src="img/Booking/01.png" alt="">
+            </div>
+         </div>
+         <div class="booking__info">
+            <p class="info__text">Mon - Fri: <span>8PM - 10PM</span>, Sat - Sun: <span>8PM - 3AM</span>, Phone: <a
+                  href="tel:+40729131637">+40 729
+                  131 637</a>/<a href="tel:+40726458782">+40 726 458 782</a>
+            </p>
+         </div>
+      </div>
+   </section>
+
+   <section class="menu">
+      <div class="container">
+         <div class="menu__info">
+            <h3 class="info__title">specialties</h3>
+         </div>
+         <div class="menu__inner">
+
+            <div class="slider">
+               <div class="slider__item">
+                  <div class="slider__content">
+                     <div class="slider__image">
+                        <img src="img/Menu/01.png" alt="">
+                     </div>
+
+                     <div class="slider__title-box">
+                        <h2 class="title">chocolate pancakes</h2>
+                        <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                           maximus,
+                           molestie est a, tempor magna.</p>
+                        <p class="team__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                           Morbi
+                           non
+                           ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                           sollicitudin
+                           lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
+                           laoreet.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="slider__item">
+                  <div class="slider__content">
+                     <div class="slider__image">
+                        <img src="img/Menu/01.png" alt="">
+                     </div>
+
+                     <div class="slider__title-box">
+                        <h2 class="title">chocolate pancakes</h2>
+                        <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                           maximus,
+                           molestie est a, tempor magna.</p>
+                        <p class="team__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                           Morbi
+                           non
+                           ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                           sollicitudin
+                           lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
+                           laoreet.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="slider__item">
+                  <div class="slider__content">
+                     <div class="slider__image">
+                        <img src="img/Menu/01.png" alt="">
+                     </div>
+
+                     <div class="slider__title-box">
+                        <h2 class="title">chocolate pancakes</h2>
+                        <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                           maximus,
+                           molestie est a, tempor magna.</p>
+                        <p class="team__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                           Morbi
+                           non
+                           ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                           sollicitudin
+                           lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
+                           laoreet.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="galerie">
+      <div class="container">
+         <div class="galerie__inner">
+            <div class="info">
+               <h2 class="title">DELICIOUS MENU</h2>
+               <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                  molestie
+                  est a, tempor magna.</p>
+            </div>
+
+            <!-- Ссылки вкладки -->
+            <div class="galerie__tab">
+               <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'Soupe')">Soupe</button>
+               <button class="tablinks" onclick="openCity(event, 'Pizza')">Pizza</button>
+               <button class="tablinks" onclick="openCity(event, 'Pasta')">Pasta</button>
+               <button class="tablinks" onclick="openCity(event, 'Desert')">Desert</button>
+               <button class="tablinks" onclick="openCity(event, 'Wine')">Wine</button>
+               <button class="tablinks" onclick="openCity(event, 'Beer')">Beer</button>
+               <button class="tablinks" onclick="openCity(event, 'Drinks')">Drinks</button>
+            </div>
+
+            <!-- Содержимое вкладки -->
+            <div id="Soupe" class="tabcontent">
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Soupe QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div id="Pizza" class="tabcontent">
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pizza QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+
+               </div>
+            </div>
+
+            <div id="Pasta" class="tabcontent">
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Pasta QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div id="Desert" class="tabcontent">
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Desert QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div id="Wine" class="tabcontent">
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Wine QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div id="Beer" class="tabcontent">
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Beer QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div id="Drinks" class="tabcontent">
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+               <div class="tabcontent__column">
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+                  <div class="tabcontent__item">
+                     <a href="#" class="tabcontent__name">
+                        <h3 class="tabcontent__title">Drinks QUATRO STAGIONI <span>....</span></h3>
+                        <p class="tabcontent__subtitle">Integer ullamcorper neque eu purus euismod</p>
+                     </a>
+
+                     <a href="#" class="tabcontent__price">
+                        55,68 USD
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- galerie__inner -->
+      </div>
+   </section>
+
+   <section class="events">
+      <div class="events__inner">
+         <div class="container">
+            <div class="events__content">
+               <div class="events__info">
+                  <h3 class="info__title">PRIVATE EVENTS</h3>
+               </div>
+
+               <div class="events__facilities">
+                  <a href="#" class="facilities__image facilities__image--left">
+                     <img src="img/Events/01.png" alt="">
+                     <h3 class="facilities__title facilities__title--left">weddings</h3>
+                  </a>
+
+                  <a href="#" class="facilities__image">
+                     <img src="img/Events/02.png" alt="">
+                     <h3 class="facilities__title">corporate pzrties</h3>
+                  </a>
+               </div>
+
+               <div class="events__info events__info--bottom">
+                  <h3 class="info__title">For private events please call: <a href="tel:40729131637">+40 729 131 637</a>
+                     / <a href="tel:40726458782">+40 726 458 782</a> or use the
+                     contact form.</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="events__photos">
+         <div class="photos__item photos__item1">
+            <a href="#">
+               <img src="img/Events/__photos/01.png" alt="">
+            </a>
+         </div>
+         <div class="photos__item photos__item2">
+            <a href="#">
+               <img src="img/Events/__photos/02.png" alt="">
+            </a>
+         </div>
+         <div class="photos__item photos__item3">
+            <a href="#">
+               <img src="img/Events/__photos/03.png" alt="">
+            </a>
+         </div>
+         <div class="photos__item photos__item4">
+            <a href="#">
+               <img src="img/Events/__photos/04.png" alt="">
+            </a>
+         </div>
+      </div>
+   </section>
+
+   <section class="contact">
+      <div class="contact__inner">
+         <div class="container">
+            <div class="contact__content">
+               <div class="info">
+                  <h2 class="title">CONTACT</h2>
+                  <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                     molestie est a, tempor magna.</p>
+               </div>
+
+               <form class="contact__form" action="/" method="POST">
+                  <div class="form__input-row">
+                     <input class="form__input" type="text" name="name" placeholder="Name">
+                     <input class="form__input" type="email" name="email" placeholder="Email">
+                     <input class="form__input" type="tel" name="phone" placeholder="Phone">
+                  </div>
+
+                  <textarea class="form__textarea" name="message" placeholder="Message"></textarea>
+
+                  <div class="form__bottom-content">
+                     <div class="bottom-content__contacts">
+                        <p class="contacts__text">5th London Boulevard, U.K.</p>
+                        <p class="contacts__text">
+                           <a href="tel:40729131637">+40 729 131 637</a>
+                           <span>/</span>
+                           <a href="40726458782">+40 726 458 782</a>
+                        </p>
+
+                        <a href="mailto:office@mindblister.com" class="contacts__text">office@mindblister.com</a>
+                     </div>
+
+                     <button class="btn" type="submit">SEND MESSAGE</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+
+      <div class="contact__location">
+         <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.9845998568476!2d-2.235608084019441!3d53.486604971896966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1b99a3d8991%3A0x82b57fcea30b945c!2zTWFzb24gU3QsIE1hbmNoZXN0ZXIsINCS0LXQu9C40LrQvtCx0YDQuNGC0LDQvdC40Y8!5e0!3m2!1sru!2sru!4v1618035991259!5m2!1sru!2sru"
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+   </section>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__copyright">
+            <p>© Copyright <span>Mindblister</span> 2019</p>
+         </div>
+      </div>
+   </footer>
+
+
+
+
+   <!-- Jquary -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <!-- Slick slider -->
+   <script src="js/slick.min.js"></script>
+   <!-- Js -->
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
